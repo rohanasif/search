@@ -2,11 +2,34 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            #searchbox, #othersearchbox {
+                display: flex;  
+                flex-wrap: wrap;
+            }
+            a#advancedsearch, #othersearchbox {
+                float:right;
+            }
+            a#imagesearch, #searchbox{
+                float:left;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com.pk/imghp">
-            <input type="text" name="q">
-            <input type="submit" value="Image Search">
-        </form>
+        <div class="container">
+            <div id="searchbox">
+                <form action="https://www.google.com.pk/imghp">
+                    <input type="text" name="q">
+                    <input type="submit" value="Google Image Search">
+                </form>
+            </div>
+            
+            <div id="othersearchbox">
+                <a id="imagesearch" href="imagesearch.html">Google image search</a>
+                <a id="advancedsearch" href="advancedsearch.html">Google advanced search</a>
+            </div>
+        </div>
+        
+
     </body>
 </html>
