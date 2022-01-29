@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <style>
-            #searchbox, #othersearchbox {
-                display: flex;  
-                flex-wrap: wrap;
-            }
-            #advancedsearch, #othersearchbox {
-                float:right;
-            }
-            #imagesearch, #searchbox{
-                float:left;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div id="searchbox">
-                <form action="https://www.google.com.pk/advanced_image_search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Advanced search">
-                </form>
-            </div>
-            
-            <div id="othersearchbox">
-                <a href="index.html">Google search</a>
-            </div>
-        </div>
-        
 
-    </body>
+<head>
+    <title>Search</title>
+    <style>
+        #searchbox,
+        #othersearchbox {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #advancedsearch,
+        #othersearchbox {
+            float: right;
+        }
+
+        #imagesearch,
+        #searchbox {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="othersearchbox">
+            <a href="index.html">Google search</a>
+        </div>
+
+        <div id="searchbox">
+            <form action="https://www.google.com.pk/search">
+                <label for="fname">all these words:</label>
+                <input type="text" name="as_q">
+                <label for="fname">this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <label for="fname">any of these words:</label>
+                <input type="text" name="as_oq">
+                <label for="fname">none of these words:</label>
+                <input type="text" name="as_eq">
+                <input type="submit" value="Advanced search">
+            </form>
+        </div>
+
+
+    </div>
+
+
+</body>
+
 </html>

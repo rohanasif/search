@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <style>
-            #searchbox, #othersearchbox {
-                display: flex;  
-                flex-wrap: wrap;
-            }
-            #advancedsearch, #othersearchbox {
-                float:right;
-            }
-            #imagesearch, #searchbox{
-                float:left;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div id="searchbox">
-                <form method="get" action="http://images.google.com/images">
-                    <input type="text" name="q" />
-                    <input type="submit" value="Google Search" />
-                  </form>
-            </div>
-            
-            <div id="othersearchbox">
-                <a id="imagesearch" href="index.html">Google search</a>
-            </div>
-        </div>
-        
 
-    </body>
+<head>
+    <title>Search</title>
+    <style>
+        #searchbox,
+        #othersearchbox {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #advancedsearch,
+        #othersearchbox {
+            float: right;
+        }
+
+        #imagesearch,
+        #searchbox {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="searchbox">
+            <form method="get" action="http://images.google.com/images">
+                <input type="text" name="q" />
+                <input type="submit" value="Google Search" />
+            </form>
+        </div>
+
+        <div id="othersearchbox">
+            <a id="imagesearch" href="index.html">Google search</a>
+        </div>
+    </div>
+
+
+</body>
+
 </html>
