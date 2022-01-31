@@ -1,0 +1,13 @@
+#searchbox, #othersearchbox {
+            display: flex;
+            flex-wrap: wrap;
+}
+
+#advancedsearch, #othersearchbox {
+            float: right;
+        }
+
+#imagesearch, #searchbox {
+            float: left;
+        }
+  
