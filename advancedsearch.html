@@ -2,34 +2,44 @@
 <html lang="en">
 
 <head>
-    <title>Search</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="newstyles.css"/>
 </head>
 
 <body>
     <div class="container">
-        
-        <div id="searchbox">
-            <form action="https://www.google.com.pk/search">
-                <label for="fname">all these words:</label>
-                <input type="text" name="as_q"><br>
-                <label for="fname">this exact word or phrase:</label>
-                <input type="text" name="as_epq"><br>
-                <label for="fname">any of these words:</label>
-                <input type="text" name="as_oq"><br>
-                <label for="fname">none of these words:</label>
-                <input type="text" name="as_eq"><br>
-                <input type="submit" value="Advanced search">
-            </form>
+        <div class="header">
+            <a href="newindex.html">Google Search</a>
         </div>
-        <div id="othersearchbox">
-            <a href="index.html">Google search</a>
+        <div class="body">
+            <div class="searchbox">
+                <form action="https://google.com/search">
+                    <form action="https://www.google.com.pk/search">
+                        <div class="adiv">
+                            <label for="fname">all these words:</label>
+                            <input type="text" name="as_q"><br>
+                        </div>
+                        <div class="ediv">
+                            <label for="fname">this exact word or phrase:</label>
+                            <input type="text" name="as_epq"><br>
+                        </div>
+                        <div class="andiv">
+                            <label for="fname">any of these words:</label>
+                            <input type="text" name="as_oq"><br>
+                        </div>
+                        <div class="ndiv">
+                            <label for="fname">none of these words:</label>
+                            <input type="text" name="as_eq"><br>
+                        </div>
+                        <div class="advancedsearchbutton">
+                            <input type="submit" value="Advanced search">
+                        </div>
+                        
+                    </form>
+                </form>
+            </div>
         </div>
-
-
     </div>
-
-
 </body>
 
 </html>

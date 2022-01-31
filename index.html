@@ -3,28 +3,30 @@
 
 <head>
     <title>Search</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="newstyles.css"/>
 </head>
 
 <body>
     <div class="container">
-        <div id="searchbox">
-            <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-                <input value="I'm Feeling Lucky" name="btnI" iflsig type="submit">
-                
-            </form>
-
+        <div class="header">
+            <a href="newimagesearch.html">Image Search</a>
+            <a href="newadvancedsearch.html">Advanced Search</a>
         </div>
-
-        <div id="othersearchbox">
-            <a id="imagesearch" href="imagesearch.html">Google image search</a>
-            <a id="advancedsearch" href="advancedsearch.html">Google advanced search</a>
+        <div class="body">
+            <div class="imageholder">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </div>
+            <div class="searchbox">
+                <form action="https://google.com/search">
+                    <input class="textfield" type="text" name="q">
+                    <div class="searchbuttons">
+                        <input type="submit" value="Google Search">
+                        <input value="I'm Feeling Lucky" name="btnI" iflsig type="submit">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
