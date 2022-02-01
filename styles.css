@@ -71,4 +71,12 @@ body {
     border: 1px solid #464646;
 }
 
-
+.advancedsearchbox {
+    width: 500px;
+    clear: both;
+  }
+  
+  .advancedsearchbox div input {
+    width: 100%;
+    clear: both;
+  }
