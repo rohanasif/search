@@ -71,12 +71,32 @@ body {
     border: 1px solid #464646;
 }
 
-.advancedsearchbox {
-    width: 500px;
-    clear: both;
+
+
+.adiv, .ediv, .andiv, .ndiv{
+    display:flex;
+}
+
+
+  .advancedsearchbox div {
+    margin-top: 30px;
   }
   
   .advancedsearchbox div input {
-    width: 100%;
-    clear: both;
+    
+    clear:both;
+  }
+
+ 
+.adivtext, .edivtext, .andivtext, .ndivtext {
+    width: 166px;
+    margin-right: 4px;
+}
+  .advancedsearch{
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #3079ed;
+    border-radius: 4px;
+    font-size: medium;
   }
