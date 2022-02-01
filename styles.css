@@ -1,102 +1,99 @@
 html {
-    
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     width: 100%;
-}
-body {
-    
-    min-height: 100%;
-    min-width: 100%;
 }
 
 
 
 .header {
-
-    float: right;
-
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
-.body{
+
+.header a{
+    margin: 0px 10px;
+}
+
+
+.body {
     display: flex;
     justify-content: center;
-    
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 200px;
 }
 
-
-.imageholder{
-    
-    position: absolute;
+.imageholder {
     top: 100px;
-    
-    
-    
-    
-}
-.searchbox{
-   position: absolute;
-   top:300px;
-    
+    margin: 10px 20px;
 }
 
-.textfield{
+.searchbox {
+    
+    top: 300px;
+}
+
+.textfield {
     border-radius: 24px;
     height: 44px;
     width: auto;
     border: 1px solid #464646;
     font-size: 40px;
     color: #464646;
-    
 }
 
-.searchbuttons{
+.searchbuttons {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-.searchbutton{  
+.searchbutton {
     padding: 10px;
-    color  : #464646;
+    color: #464646;
     background-color: #ffffff;
     border-radius: 4px;
     border: 1px solid #464646;
     margin-right: 10px;
 }
 
-.iflbutton{
+.iflbutton {
     padding: 10px;
-    color  : #464646;
+    color: #464646;
     background-color: #ffffff;
     border-radius: 4px;
     border: 1px solid #464646;
 }
 
+.adiv,
+.ediv,
+.andiv,
+.ndiv {
+    display: flex;
+}
 
-
-.adiv, .ediv, .andiv, .ndiv{
-    display:flex;
+.advancedsearchbox div {
+    margin-top: 30px;
 }
 
 
-  .advancedsearchbox div {
-    margin-top: 30px;
-  }
-  
-  .advancedsearchbox div input {
-    
-    clear:both;
-  }
-
- 
-.adivtext, .edivtext, .andivtext, .ndivtext {
+.adivtext,
+.edivtext,
+.andivtext,
+.ndivtext {
     width: 166px;
     margin-right: 4px;
 }
-  .advancedsearch{
+
+.advancedsearch {
     padding: 10px;
     margin-top: 10px;
     color: #ffffff;
     background-color: #3079ed;
     border-radius: 4px;
     font-size: medium;
-  }
+}

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin-left: auto;
+}
+
+.imageholder {
+    margin:auto;
+}
