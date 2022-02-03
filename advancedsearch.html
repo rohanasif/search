@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://www.google.com.pk/advanced_image_search">
-            <input type="text" name="q">
-            <input type="submit" value="Advanced Search">
-        </form>
-    </body>
+
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="body">
+            <div class="advancedsearchbox">
+                <h1 class="outer">Advanced Search</h1>
+                <p class="inner">Find pages with...</p>
+                    <form action="https://www.google.com.pk/search">
+                        <div class="adiv">
+                            <div class="adivtext"><label for="fname">all these words:</label></div>
+                            <div class="adivfield"><input type="text" name="as_q"></div>
+                            
+                        </div>
+                        <div class="ediv">
+                            <div class="edivtext"><label for="fname">this exact word or phrase:</label></div>
+                            <div class="edivfield"><input type="text" name="as_epq"></div>
+                        </div>
+                        <div class="andiv">
+                            <div class="andivtext"><label for="fname">any of these words:</label></div>
+                            <div class="andivfield"><input type="text" name="as_oq"></div>
+                        </div>
+                        <div class="ndiv">
+                            <div class="ndivtext"><label for="fname">none of these words:</label></div>
+                            <div class="ndivfield"><input type="text" name="as_eq"></div>
+                        </div>
+                        <div class="advancedsearchbutton">
+                            <input class="advancedsearch" type="submit" value="Advanced search">
+                        </div>
+                        
+                    </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

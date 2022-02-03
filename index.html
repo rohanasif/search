@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <style>
-            #searchbox, #othersearchbox {
-                display: flex;  
-                flex-wrap: wrap;
-            }
-            a#advancedsearch, #othersearchbox {
-                float:right;
-            }
-            a#imagesearch, #searchbox{
-                float:left;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div id="searchbox">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="imagesearch.html">Image Search</a>
+            <a href="advancedsearch.html">Advanced Search</a>
+        </div>
+        <div class="body">
+            <div class="imageholder">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </div>
+            <div class="searchbox">
                 <form action="https://google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
+                    <input class="textfield" type="text" name="q">
+                    <div class="searchbuttons">
+                        <input class="searchbutton" type="submit" value="Google Search">
+                        <input class="iflbutton" value="I'm Feeling Lucky" name="btnI" iflsig type="submit">
+                    </div>
                 </form>
             </div>
-            
-            <div id="othersearchbox">
-                <a id="imagesearch" href="https://www.google.com.pk/imghp">Google image search</a>
-                <a id="advancedsearch" href="https://www.google.com.pk/advanced_image_search">Google advanced search</a>
-            </div>
         </div>
-        
+    </div>
+</body>
 
-    </body>
 </html>
